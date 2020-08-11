@@ -41,5 +41,5 @@ if [ $need_ppa -eq 1 ]; then
     sudo apt-get install cmake
 fi
 
-./build.sh "$@"
+./build_small.sh "$@"
 
